@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cartas Pokémon</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+        margin: 0;
+      padding: 0;
+      background-color: #f2f2f2;
+      color: #333;
+    }
+    header {
+      background-color: #ffcb05;
+      color: #2a75bb;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #2a75bb;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .intro {
+      padding: 30px;
+      text-align: center;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+      gap: 20px;
+      padding: 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .card {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      padding: 10px;
+      text-align: center;
+      transition: transform 0.2s;
+    }
+    .card:hover {
+      transform: scale(1.05);
+    }
+    .card img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    footer {
+      background-color: #2a75bb;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Cartas Pokémon</h1>
+    <p>Explora el mundo del Juego de Cartas Coleccionables Pokémon (TCG)</p>
+  </header>
+
+  <nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#galeria">Galería</a>
+    <a href="#info">¿Qué es TCG?</a>
+  </nav>
+
+  <section id="inicio" class="intro">
+    <h2>Bienvenido al mundo Pokémon TCG</h2>
+    <p>Las cartas Pokémon son más que solo coleccionables. ¡Son una forma divertida de jugar, intercambiar y vivir el universo Pokémon!</p>
+  </section>
+
+  <section id="galeria" class="gallery">
+    <div class="card">
+      <img src="https://images.pokemontcg.io/base1/4.png" alt="Charizard">
+      <p>Charizard (Base Set )</p><P
+    </div>
+    <div class="card">
+      <img src="https://images.pokemontcg.io/base1/2.png" alt="Blastoise">
+      <p>Blastoise (Base Set)</p>
+    </div>
+    <div class="card">
+      <img src="https://images.pokemontcg.io/base1/1.png" alt="Alakazam">
+      <p>Alakazam (Base Set)</p>
+    </div>
+    <div class="card">
+      <img src="https://images.pokemontcg.io/sm75/SM75.p" alt="Reverso de la carta ">
+      <p>Reverso de la carta</p>
+    </div>
+  </section>
+
+  <section id="info" class="intro">
+    <h2>¿Qué es el Juego de Cartas Coleccionables Pokémon?</h2>
+    <p>El Pokémon TCG (Trading Card Game) es un juego de estrategia basado en turnos en el que los entrenadores usan cartas de Pokémon, objetos y energías para enfrentarse entre sí. ¡Colecciona, entrena y batalla para convertirte en el mejor!</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Sitio de fans de Pokémon TCG. No afiliado con Nintendo, Game Freak o The Pokémon Company.</p>
+  </footer>
+
+</body>
+</html>
